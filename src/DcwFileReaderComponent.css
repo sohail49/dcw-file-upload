@@ -1,0 +1,23 @@
+#dwv {
+  height: 90%; }
+
+.button-row {
+  text-align: center;
+}
+
+/* Layers */
+.layerContainer {
+    position: relative; padding-top: 10px;
+    margin: auto; text-align: center; }
+.imageLayer {
+    position: absolute;
+    left: 0px; }
+.drawDiv {
+    position: absolute; pointer-events: none; }
+
+/* drag&drop */
+.dropBox {
+    border: 1px solid black;
+    margin: auto;
+    text-align: center; vertical-align: middle; }
+
